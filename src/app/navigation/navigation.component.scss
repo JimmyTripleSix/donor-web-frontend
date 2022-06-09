@@ -1,0 +1,21 @@
+nav {
+
+  a {
+    color: black;
+  }
+
+  div.collapse a:hover {
+    text-decoration: underline;
+    text-underline: black;
+  }
+
+  @media (min-width: 992px) {
+    .navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+  }
+
+
+}

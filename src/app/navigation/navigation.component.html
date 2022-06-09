@@ -1,0 +1,29 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Donor</a>
+      <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+        &#9776;
+      </button>
+      <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">O nás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Koncerty</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Merchandise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontakty</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
